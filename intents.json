@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "howdy?!",
+        "greetings",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "what's up?",
+        "how are you going?",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey!",
+        "What can I do for you?",
+        "Hi, can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "goodbye",
+        "bye",
+        "i gotta go",
+        "i'm going now",
+        "i'm leaving",
+        "cya",
+        "see you later",
+        "good night"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Come back at any time!",
+        "If you need anything else, just come back",
+        "See you",
+        "Goodbye, friend!",
+        "Bye! If you need anything, just let me know."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you?",
+        "when were you created?",
+        "when is your birthday?",
+        "how old is your creator?",
+        "tell me your age",
+        "age"
+      ],
+      "responses": [
+        "I was created on February 25th in 2023 by Naomi Lago. My age is currently 0 years old.",
+        "I am 0 years old. My creator Naomi Lago is 20, though.",
+        "I don't understand what you just asked, I'm sorry.",
+        "I'll be 1 year old on February 25th in 2024. Naomi Lago just created me!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "name",
+        "what is your name?",
+        "how can i call you?",
+        "do you have a name?",
+        "what should i call you?",
+        "who are you?",
+        "can you tell me your name?"
+      ],
+      "responses": [
+        "My name is Nao, a nice chatbot created by Naomi Lago.",
+        "You can call me Nao, a sweet assistent created by Naomi Lago",
+        "People know me as Nao, the cute robot developed by Naomi Lago",
+        "I'm the Naomi Lago new chatbot called Nao"
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "i wanna know more about nlp",
+        "what is nlp?",
+        "talk nlp to me",
+        "what is a lemmatizer?",
+        "what is the first common process on nlp?",
+        "lemma and stems are the same?"
+      ],
+      "responses": [
+        "Naomi is also studying NLP and she's having a lot of fun in this area. She even takes notes publicly using gitbook. Check this out: https://docs.naomilago.com/",
+        "I am not sure if I can answer that precisely, but Naomi must have a note on this. Check this out: https://docs.naomilago.com/",
+        "NLP is such an amazing area and as Naomi is also studying this, you might find your answer in some of her notes at https://docs.noamilago.com/"
+      ]
+    }
+  ]
+}
